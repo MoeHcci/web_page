@@ -1,4 +1,3 @@
-
 /* Notes
 1. In regards of the margins if we type margin:0px. This means
 margin-top: 0px;
@@ -12,23 +11,32 @@ margin-right: 0px;
 
 
   */
-.bodysettings
-{
+.bodysettings {
   margin: 0px
 }
 
-
-.divone
-{
-background-color: #1C658C;
-
+.divone {
+  background-color: #EEEEEE;
 }
 
-.h1display
-{
+.divtwo {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+
+.divthree {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+.h1display {
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
-
 }
