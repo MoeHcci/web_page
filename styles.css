@@ -1,3 +1,34 @@
-body {
-  background-color: Blue;
+
+/* Notes
+1. In regards of the margins if we type margin:0px. This means
+margin-top: 0px;
+margin-left: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+2.
+
+
+
+
+
+  */
+.bodysettings
+{
+  margin: 0px
+}
+
+
+.divone
+{
+background-color: #1C658C;
+
+}
+
+.h1display
+{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+
 }
