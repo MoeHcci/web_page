@@ -12,29 +12,37 @@ margin-right: 0px;
 
   */
 .bodysettings {
-  margin: 0px
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  text-align: center;
 }
 
 .divone {
   background-color: #EEEEEE;
 }
 
-.divtwo {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+.top_cloud_1 {
+  position: absolute;
+  left: 400px;
+  top: 100px;
 }
 
-
-.divthree {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+.top_cloud_2 {
+  position: absolute;
+  right: 350px;
+  top: 100px;
 }
 
+.h_one_display {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
 
-
-.h1display {
+.p_intro_display {
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
