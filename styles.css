@@ -17,6 +17,7 @@ margin-right: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
   text-align: center;
+  font-family: monospace;
 }
 
 .divone {
@@ -36,6 +37,7 @@ margin-right: 0px;
 }
 
 .h_one_display {
+  font-family: 'Lobster Two', cursive;
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
@@ -47,4 +49,16 @@ margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
+  font-family: 'Lobster Two', cursive;
+
+}
+
+
+.headings {
+font-family: 'Oswald', sans-serif;
+
+}
+
+.paragraphs {
+  font-family: 'Oswald', sans-serif;
 }
