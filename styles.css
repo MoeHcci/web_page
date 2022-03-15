@@ -12,15 +12,18 @@ margin-right: 0px;
 
   */
 .bodysettings {
+  margin: 0px;
+
+
+}
+
+.divone {
+  background-color: #EEEEEE;
   margin-top: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
   text-align: center;
-}
-
-.divone {
-  background-color: #EEEEEE;
 }
 
 .top_cloud_1 {
@@ -52,12 +55,41 @@ margin-right: 0px;
 
 }
 
+.aboutme {
+display:inline-block;
+margin: 0px;
+width: 1300px;
+height: 100px
+background-color: #D8D2CB;
+
+
+
+}
+
+.mohamd_imad_pic {
+  position: absolute;
+  right: 100px;
+  top: 590px;
+  border-radius: 50%;
+  width: 250px;
+
+}
 
 .headings {
 font-family: 'Oswald', sans-serif;
+margin-top: 0px;
+margin-left: 20px;
+margin-bottom: 0px;
+margin-right: 0px;
+
 
 }
 
 .paragraphs {
   font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+
 }
