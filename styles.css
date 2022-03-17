@@ -13,8 +13,6 @@ margin-right: 0px;
   */
 .bodysettings {
   margin: 0px;
-
-
 }
 
 .divone {
@@ -27,15 +25,15 @@ margin-right: 0px;
 }
 
 .top_cloud_1 {
-  position: absolute;
-  left: 400px;
-  top: 100px;
+  left: 30%;
+  top: 10%;
+  display: inline-block;
 }
 
 .top_cloud_2 {
-  position: absolute;
-  right: 350px;
-  top: 100px;
+  right: 25%;
+  top: 10%;
+  display: inline-block;
 }
 
 .h_one_display {
@@ -44,6 +42,7 @@ margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
+  display: inline-block;
 }
 
 .p_intro_display {
@@ -52,37 +51,21 @@ margin-right: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
   font-family: 'Lobster Two', cursive;
-
 }
 
 .aboutme {
-display:inline-block;
-margin: 0px;
-width: 1300px;
-height: 100px
-background-color: #D8D2CB;
-
-
-
-}
-
-.mohamd_imad_pic {
-  position: absolute;
-  right: 100px;
-  top: 590px;
-  border-radius: 50%;
-  width: 250px;
-
+  display: inline-block;
+  margin: 0px;
+  width: 90%;
 }
 
 .headings {
-font-family: 'Oswald', sans-serif;
-margin-top: 0px;
-margin-left: 20px;
-margin-bottom: 0px;
-margin-right: 0px;
-
-
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  display: block;
 }
 
 .paragraphs {
@@ -91,5 +74,18 @@ margin-right: 0px;
   margin-left: 25px;
   margin-bottom: 0px;
   margin-right: 0px;
+  display: inline-block;
+}
 
+.mohamd_imad_pic {
+  display: inline-block;
+  float: right;
+  border-radius: 50%;
+  width: 250px;
+  margin-right: 5%;
+
+}
+
+.hl {
+  margin: 0%;
 }
