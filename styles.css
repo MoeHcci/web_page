@@ -52,10 +52,11 @@ body {
   margin-bottom: 0px;
   margin-right: 0px;
   display: inline-block;
+
 }
 
 .h_two_intro_display {
-  margin-top: 0px;
+  margin-top: 2%;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -70,6 +71,7 @@ body {
   display: inline-block;
   margin: 0px;
   width: 90%;
+
 }
 
 .headings {
