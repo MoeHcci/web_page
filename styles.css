@@ -11,18 +11,15 @@ margin-right: 0px;
 
 
   */
-
 /* Elements Styling
 This means styling for the any element that matches the element Name
 in this case any <body> will have a margin of 0px
    */
 body {
   margin: 0px;
-
 }
 
 /* Classes Styling   */
-
 .divone {
   background-color: #EEEEEE;
   margin-top: 0px;
@@ -44,6 +41,11 @@ body {
   display: inline-block;
 }
 
+.cn_tower {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .h_one_display {
   font-family: 'Lobster Two', cursive;
   font-size: 3.125rem;
@@ -52,35 +54,40 @@ body {
   margin-bottom: 0px;
   margin-right: 0px;
   display: inline-block;
-
+  color: #22577E;
 }
 
 .h_two_intro_display {
-  margin-top: 2%;
+  margin-top: 0%;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
-  font-family: 'Lobster Two', cursive;
   display: block;
+  font-family: 'Lobster Two', cursive;
   font-size: 2.0rem;
-
-
+  color: #5584AC;
+  line-height: 2;
 }
 
 .aboutme {
-  display: inline-block;
+  display: block;
   margin: 0px;
-  width: 90%;
-
 }
+
 
 .headings {
   font-family: 'Oswald', sans-serif;
   margin-top: 0px;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-bottom: 0px;
   margin-right: 0px;
   display: block;
+  color: #22577E;
+}
+
+.aboutme_content {
+  display: inline-block;
+  margin: 0px;
 }
 
 .paragraphs {
@@ -89,7 +96,10 @@ body {
   margin-left: 25px;
   margin-bottom: 0px;
   margin-right: 0px;
+  font-size: 1.5rem;
   display: inline-block;
+  line-height: 2;
+  width: 80%;
 }
 
 .mohamd_imad_pic {
@@ -97,8 +107,7 @@ body {
   float: right;
   border-radius: 50%;
   width: 250px;
-  margin-right: 5%;
-
+  margin-right: 4%;
 }
 
 .hl {
