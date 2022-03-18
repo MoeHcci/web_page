@@ -153,7 +153,32 @@ body {
   line-height: 2;
 }
 
+.button_settings {
+background-color: #22577E;
+font-family: 'Oswald', sans-serif;
+color: white;
+float: right;
+font-size: 1rem;
+margin:0px;
+border:0px;
+display: inline-block;
+float: right;
+width: 200px;
+transition-duration: 0.4s;
+border: 0.1rem solid black;
+text-align: center;
+text-decoration: none;
 
+
+
+
+}
+
+.button_settings:hover {
+  background-color: #5584AC;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+}
 
 .hl {
   margin: 0%;
