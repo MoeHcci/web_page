@@ -124,6 +124,42 @@ body {
   margin-bottom: 0.625%;
 }
 
+.resume {
+  display:block;
+  color: #22577E;
+  background-color: #EEEEEE;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+   border: 2px solid black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width:20%;
+  text-decoration: none;
+
+
+}
+
+
+.resume:hover {
+  background-color: #5584AC;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+
+
+
+
+
 .technologies {
   display: inline-block;
   margin: 0px;
