@@ -180,7 +180,7 @@ body {
   margin: 0px;
   display: inline-block;
   float: right;
-  width: 150px;
+  width: 225px;
   transition-duration: 0.4s;
   text-align: center;
   text-decoration: none;
@@ -227,7 +227,33 @@ body {
   line-height: 2;
   text-align: center;
 
+}
+
+.connect_linkedin {
+  display: inline-block;
+  width: 95px;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
 
 
 
+.connect_googlescholar {
+  display: inline-block;
+  width: 150px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+}
+
+.connect_github{
+  display: inline-block;
+  width: 65px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
 }
