@@ -78,7 +78,6 @@ body {
   margin: 0px;
 }
 
-
 .headings {
   font-family: 'Oswald', sans-serif;
   margin-top: 0px;
@@ -88,7 +87,6 @@ body {
   display: block;
   color: #22577E;
   font-size: 2.5rem;
-
 }
 
 .aboutme_content {
@@ -114,6 +112,7 @@ body {
   border-radius: 50%;
   width: 250px;
   margin-right: 4%;
+  margin-bottom: 0.625%;
 }
 
 .technologies {
@@ -129,7 +128,6 @@ body {
   margin-bottom: 0px;
   margin-right: 0px;
 }
-
 
 .projects_headings {
   font-family: 'Oswald', sans-serif;
@@ -153,42 +151,64 @@ body {
   line-height: 2;
 }
 
+.projects_paragraphs_logo {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  font-size: 1.5rem;
+  display: block;
+  line-height: 2;
+}
+
+.tech_logos_projects {
+  display: inline-block;
+  width: 35px;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
 .button_settings {
-background-color: #22577E;
-font-family: 'Oswald', sans-serif;
-color: white;
-float: right;
-font-size: 1rem;
-margin:0px;
-border:0px;
-display: inline-block;
-float: right;
-width: 200px;
-transition-duration: 0.4s;
-border: 0.1rem solid black;
-text-align: center;
-text-decoration: none;
-
-
-
-
+  background-color: white;
+  font-family: 'Oswald', sans-serif;
+  color: #22577E;
+  float: right;
+  font-size: 1rem;
+  margin: 0px;
+  display: inline-block;
+  float: right;
+  width: 150px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 3.125rem;
+  margin-top: 1.875rem;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+  border: 2px solid #22577E;
 }
 
 .button_settings:hover {
   background-color: #5584AC;
   font-family: 'Oswald', sans-serif;
-  color:white;
+  color: white;
 }
 
 .hl {
   margin: 0%;
 }
 
+.ul_tech {
+  margin: 0%;
+  display: inline-block;
+  width: 100%;
+}
 
-.ul {
+.ul_project {
   margin: 0%;
   display: inline-block;
   width: 80%;
-
-
 }
