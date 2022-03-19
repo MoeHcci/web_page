@@ -22,11 +22,12 @@ body {
 /* Classes Styling   */
 .divone {
   background-color: #EEEEEE;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
+  margin: 0px;
+  padding:0px;
+  border:0px;
   text-align: center;
+  height: 475px;
+
 }
 
 .top_cloud_1 {
@@ -46,8 +47,16 @@ body {
 }
 
 .cn_tower {
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  width:20%;
+  height:60%;
+  margin-top: 0rem;
+  margin-left: 0px;
+  margin-bottom: 10%;
+  margin-right: 0px;
+  clear:both;
+
+
 }
 
 .h_one_display {
@@ -175,7 +184,6 @@ body {
   background-color: white;
   font-family: 'Oswald', sans-serif;
   color: #22577E;
-  float: right;
   font-size: 1rem;
   margin: 0px;
   display: inline-block;
@@ -189,6 +197,8 @@ body {
   margin-left: 0rem;
   margin-bottom: 0rem;
   border: 2px solid #22577E;
+  cursor: pointer;
+
 }
 
 .button_settings:hover {
@@ -226,6 +236,8 @@ body {
   display: block;
   line-height: 2;
   text-align: center;
+  display: block;
+
 
 }
 
@@ -256,4 +268,41 @@ body {
   margin-left: 5px;
   margin-bottom: 0px;
   margin-right: 0px;
+}
+
+.contact_me{
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.contact_mebutton_settings {
+
+color: #22577E;
+background-color: #EEEEEE;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+border-radius: 10px;
+margin-top: 10px;
+margin-left: 0px;
+margin-bottom: 10px;
+margin-right: 50px;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+
+}
+
+.button_settings:hover {
+  background-color:#5584AC;
+  font-family: 'Oswald', sans-serif;
+  color:  #EEEEEE;
 }
