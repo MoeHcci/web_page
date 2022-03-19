@@ -277,6 +277,11 @@ body {
 
 }
 
+.connect_a_element {
+  text-decoration-line: none;
+
+}
+
 .connect_linkedin {
   display: inline-block;
   width: 95px;
@@ -284,6 +289,8 @@ body {
   margin-left: 50px;
   margin-bottom: 0px;
   margin-right: 0px;
+
+
 }
 
 
@@ -295,6 +302,7 @@ body {
   margin-left: 5px;
   margin-bottom: 15px;
   margin-right: 0px;
+
 }
 
 .connect_github{
@@ -304,6 +312,7 @@ body {
   margin-left: 5px;
   margin-bottom: 0px;
   margin-right: 0px;
+
 }
 
 .contact_me{
