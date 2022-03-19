@@ -23,11 +23,10 @@ body {
 .divone {
   background-color: #EEEEEE;
   margin: 0px;
-  padding:0px;
-  border:0px;
+  padding: 0px;
+  border: 0px;
   text-align: center;
-  height: 475px;
-
+  height: 29rem;
 }
 
 .top_cloud_1 {
@@ -48,15 +47,13 @@ body {
 
 .cn_tower {
   display: inline-block;
-  width:20%;
-  height:60%;
+  width: 20%;
+  height: 60%;
   margin-top: 0rem;
   margin-left: 0px;
   margin-bottom: 10%;
   margin-right: 0px;
-  clear:both;
-
-
+  clear: both;
 }
 
 .h_one_display {
@@ -90,7 +87,7 @@ body {
 .headings {
   font-family: 'Oswald', sans-serif;
   margin-top: 0px;
-  margin-left: 15px;
+  margin-left: 1rem;
   margin-bottom: 0px;
   margin-right: 0px;
   display: block;
@@ -106,7 +103,7 @@ body {
 .paragraphs {
   font-family: 'Oswald', sans-serif;
   margin-top: 0px;
-  margin-left: 25px;
+  margin-left: 1.5rem;
   margin-bottom: 0px;
   margin-right: 0px;
   font-size: 1.5rem;
@@ -119,46 +116,38 @@ body {
   display: inline-block;
   float: right;
   border-radius: 50%;
-  width: 250px;
+  width: 16rem;
   margin-right: 4%;
   margin-bottom: 0.625%;
 }
 
 .resume {
-  display:block;
+  display: block;
   color: #22577E;
   background-color: #EEEEEE;
   font-family: 'Oswald', sans-serif;
   text-align: center;
-   border: 2px solid black;
+  border: 2px solid black;
   font-size: 1.5rem;
   cursor: pointer;
-  border-radius: 50px;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-bottom: 10px;
-  margin-right: 50px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  width:20%;
+  border-radius: 3rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 2rem;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  width: 20%;
   text-decoration: none;
-
-
 }
-
 
 .resume:hover {
   background-color: #5584AC;
   font-family: 'Oswald', sans-serif;
   color: white;
 }
-
-
-
-
-
 
 .technologies {
   display: inline-block;
@@ -167,9 +156,9 @@ body {
 
 .tech_logos {
   display: inline-block;
-  width: 100px;
+  width: 6.125rem;
   margin-top: 0px;
-  margin-left: 25px;
+  margin-left: 1.5rem;
   margin-bottom: 0px;
   margin-right: 0px;
 }
@@ -209,14 +198,14 @@ body {
 
 .tech_logos_projects {
   display: inline-block;
-  width: 35px;
+  width: 2.25rem;
   margin-top: 0px;
   margin-left: 5px;
   margin-bottom: 0px;
   margin-right: 0px;
 }
 
-.button_settings {
+.likea_button_settings {
   background-color: white;
   font-family: 'Oswald', sans-serif;
   color: #22577E;
@@ -224,7 +213,7 @@ body {
   margin: 0px;
   display: inline-block;
   float: right;
-  width: 225px;
+  width: 15rem;
   transition-duration: 0.4s;
   text-align: center;
   text-decoration: none;
@@ -232,12 +221,12 @@ body {
   margin-top: 1.875rem;
   margin-left: 0rem;
   margin-bottom: 0rem;
-  border: 2px solid #22577E;
+  border: 0.125rem solid #22577E;
   cursor: pointer;
-
+  border-radius: 0.5rem;
 }
 
-.button_settings:hover {
+.likea_button_settings:hover {
   background-color: #5584AC;
   font-family: 'Oswald', sans-serif;
   color: white;
@@ -259,8 +248,7 @@ body {
   width: 80%;
 }
 
-
-.copyright{
+.copyright {
   background-color: #EEEEEE;
   color: #22577E;
   font-family: 'Oswald', sans-serif;
@@ -273,81 +261,71 @@ body {
   line-height: 2;
   text-align: center;
   display: block;
-
-
 }
 
 .connect_a_element {
   text-decoration-line: none;
-
 }
 
 .connect_linkedin {
   display: inline-block;
-  width: 95px;
+  width: 6rem;
   margin-top: 0px;
-  margin-left: 50px;
+  margin-left: 2.0rem;
   margin-bottom: 0px;
   margin-right: 0px;
-
-
 }
-
-
 
 .connect_googlescholar {
   display: inline-block;
-  width: 150px;
+  width: 9.5rem;
   margin-top: 0px;
-  margin-left: 5px;
-  margin-bottom: 15px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
   margin-right: 0px;
-
 }
 
-.connect_github{
+.connect_github {
   display: inline-block;
-  width: 65px;
+  width: 4rem;
   margin-top: 0px;
-  margin-left: 5px;
+  margin-left: 1rem;
   margin-bottom: 0px;
   margin-right: 0px;
-
 }
 
-.contact_me{
+.contact_me {
   display: block;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   margin-top: 0px;
-  margin-left: 50px;
+  margin-left: 2.0rem;
   margin-bottom: 0px;
   margin-right: 0px;
 }
 
 .contact_mebutton_settings {
-
-color: #22577E;
-background-color: #EEEEEE;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-cursor: pointer;
-border-radius: 10px;
-margin-top: 10px;
-margin-left: 0px;
-margin-bottom: 10px;
-margin-right: 50px;
-padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-
+  color: #22577E;
+  background-color: #EEEEEE;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 1.6rem;
+  margin-top: 1.6rem;
+  margin-left: 0px;
+  margin-bottom: 1.6rem;
+  margin-right: 0.3125rem;
+  padding-top: 1.6rem;
+  padding-left: 1.6rem;
+  padding-bottom: 1.6rem;
+  padding-right: 1.6rem;
+  width: 100%;
 }
 
 .button_settings:hover {
-  background-color:#5584AC;
+  background-color: #5584AC;
   font-family: 'Oswald', sans-serif;
-  color:  #EEEEEE;
+  color: #EEEEEE;
 }
