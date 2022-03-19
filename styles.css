@@ -305,27 +305,30 @@ body {
 }
 
 .contact_mebutton_settings {
+  display: block;
   color: #22577E;
   background-color: #EEEEEE;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  border: 2px solid black;
   font-size: 1.5rem;
   cursor: pointer;
-  border-radius: 1.6rem;
-  margin-top: 1.6rem;
-  margin-left: 0px;
-  margin-bottom: 1.6rem;
-  margin-right: 0.3125rem;
-  padding-top: 1.6rem;
-  padding-left: 1.6rem;
-  padding-bottom: 1.6rem;
-  padding-right: 1.6rem;
+  border-radius: 3rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+  margin-bottom: 0.5rem;
+  margin-right: 2rem;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  padding-right: 1px;
   width: 100%;
+  text-decoration: none;
 }
 
 .button_settings:hover {
   background-color: #5584AC;
   font-family: 'Oswald', sans-serif;
   color: #EEEEEE;
+
 }
