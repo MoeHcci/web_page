@@ -20,40 +20,43 @@ body {
 }
 
 /* Classes Styling   */
-.divone {
+#title {
   background-color: #EEEEEE;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+}
+
+.divone {
+  width: 100%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  height: 29rem;
 }
 
 .top_cloud_1 {
-  margin-top: 0px;
-  margin-left: 0rem;
-  margin-bottom: 20rem;
-  margin-right: 0px;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 }
 
 .top_cloud_2 {
-  display: inline-block;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 20rem;
-  margin-right: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 }
 
 .cn_tower {
-  display: inline-block;
-  width: 20%;
-  height: 60%;
-  margin-top: 0rem;
-  margin-left: 0px;
-  margin-bottom: 10%;
-  margin-right: 0px;
-  clear: both;
+  display: block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .h_one_display {
@@ -120,8 +123,6 @@ body {
   margin-right: 4%;
   margin-bottom: 0.625%;
 }
-
-
 
 .resume {
   display: block;
@@ -332,5 +333,4 @@ body {
   background-color: #5584AC;
   font-family: 'Oswald', sans-serif;
   color: #EEEEEE;
-
 }
