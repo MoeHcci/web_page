@@ -135,14 +135,27 @@
           <ul class="ul_project">
             <h2 class="projects_headings">Machine Learning Supervised Regression Project Medical Insurance Charges Prediction</h2>
             <ul class="ul">
+
               <p class="projects_paragraphs">
-                -A supervised regression machine learning project that utilized multiple supervised algorithms to predict the medical charges of patients.
+                -A supervised regression ML project that predicts the medical insurance charges of patients.
               </p>
               <p class="projects_paragraphs">
--The projects begins by applying EDA on the dataset. Then, utilizing GridSearchCV to find the optimum hyperparameters for each of the supervised ML algorithms.              </p>
-              <p class="projects_paragraphs">
-                -The algorithms that were used in this project were: Linear Regression, Polynomial Regression, K-Nearest Neighbors (KNN), Support Vector Machines (SVM) For regression, Decision Trees (With Adaboost and Gradient Boost), and Random Forest.
+                -Features were: Age, Sex, BMI, Number of Children, Smoking Status, and Region. Based on an extensive EDA the Age and Smoking Status were the most influential features on the charges label feature.
               </p>
+              <p class="projects_paragraphs">
+                -The following algorithms were used to predict the medical insurance charges: Linear Regression, Polynomial Regression, KNN, SVM, Decision Trees, and Random Forest.
+              </p>
+              <p class="projects_paragraphs">
+                -GridSearchCV as utilized during the training of each algorithm to ensure the optimum hyperparameters were selected to minimize the RMSE.
+              </p>
+              <p class="projects_paragraphs">
+                -The top performing algorithm was Decision Trees with Gradient boost with a RMSE of 33.86%.
+              </p>
+
+
+
+
+
 
               <p class="projects_paragraphs_logo">
                 -Technologies Utlized:
@@ -168,14 +181,20 @@
           <ul class="ul_project">
             <h2 class="projects_headings">Machine Learning Supervised Classification Project Strokes Prediction</h2>
             <ul class="ul">
+
+
               <p class="projects_paragraphs">
-                -A supervised classification machine learning project that utilized multiple supervised algorithms to predict if a patient will have a stroke or not.
+                -A supervised classification ML project that predicts if an individual will have a stroke or not.
               </p>
+
               <p class="projects_paragraphs">
--The projects begins by applying EDA on the dataset. Then, utilizing GridSearchCV to find the optimum hyperparameters for each of the supervised ML algorithms.              </p>
-              <p class="projects_paragraphs">
-                -The algorithms that were used in this project were: Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machines (SVM) For classification, Decision Trees (With Adaboost and Gradient Boost), and Random Forest.
+                -The goal of the analysis is to decrease the false negatives. Therefore recall was chosen as the metric to optimize during the GridSearchCV of each algorithm. Multiple ML algorithms were utilized including: Logistic Regression, KNN, SVM, Decision Trees, and Random Forests.
               </p>
+
+              <p class="projects_paragraphs">
+                -Age seemed to be the most influential parameter in predicting if a person will have a stroke or not. In conclusion, the top performing algorithms that had the lowest false negatives were Decision Trees with Ada boost and SVM.
+              </p>
+
 
               <p class="projects_paragraphs_logo">
                 -Technologies Utlized:
